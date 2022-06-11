@@ -7,4 +7,4 @@ def sum_of_two_num(num1,num2):
         num1+=1
     return sum  
   
-print(sum_of_two_num(3,4))
+print("Sum =",sum_of_two_num(3,4))
