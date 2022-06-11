@@ -1,4 +1,6 @@
 def three_num_max(num1,num2,num3):
+    #Find two max numbers and calculate the sum of that numbers sqaures
+    
     if num1 > num2:
         num1,num2 = num2,num1
     if num1 > num3:
