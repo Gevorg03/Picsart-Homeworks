@@ -5,7 +5,7 @@ def contain(data,val):
     while i < len(data):
         if data[i] == val:
             return True
-        i+=1
+        i += 1
     return False   
     
-print(contain([1,2,3,4],3))    
+print(contain([1, 2, 3, 4], 3))    
