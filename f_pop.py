@@ -1,13 +1,12 @@
-def pop(i):
+def pop(data, i=None):
     #if exist ith member, delete, otherwise the delete the last member
     
-    lst = [1,5,12,4]
     if i == None:
-        tmp = lst[len(lst)-1]
-        del lst[len(lst)-1]
-        return tmp
-    _tmp = lst[i]    
-    del lst[i]    
-    return _tmp    
+        el = data[len(data)-1]
+        del data[len(data)-1]
+        return el
+    _el = data[i]    
+    del data[i]    
+    return _el   
         
-print(pop(2)) 
+print(pop([1, 2, 3, 4])) 
