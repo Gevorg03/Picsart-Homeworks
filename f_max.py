@@ -6,7 +6,7 @@ def max(data):
     while i < len(data):
         if max < data[i]:
             max = data[i]
-        i+=1    
+        i += 1    
     return max
     
-print(max([14,20,99,30,5,8]))  
+print(max([14, 20, 99, 30, 5, 8]))  
