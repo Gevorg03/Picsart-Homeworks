@@ -6,7 +6,7 @@ def min(data):
     while i < len(data):
         if min > data[i]:
             min = data[i]
-        i+=1    
+        i += 1    
     return min
     
-print(min([14,20,99,30,5,8])) 
+print(min([14, 20, 99, 30, 5, 8])) 
