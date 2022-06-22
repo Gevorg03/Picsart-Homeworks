@@ -212,3 +212,40 @@ def letter_vocal_consonant(letter):
         return "consonant"
 _letter = input("Input a letter: ")
 print(f"The {_letter} is {letter_vocal_consonant(_letter)}")
+
+//23
+def season(month):
+    if month in ('march', 'april', 'may'):
+        return "spring"
+    elif month in ('june', 'july', 'august'):
+        return "summer"
+    elif month in ('september', 'october', 'november'):
+        return "autumn"
+    else:
+        return 'summer'
+_month = input("Input a month: ")
+_day = int(input("Input a day: "))
+print(f"The {_month} {_day} is a day of {season(_month)}")
+
+//25
+def celsius_to_fahrenheit(celsius):
+    return (celsius * 1.8) + 32
+count = 10    
+while count <= 100:
+    fahrenheit = celsius_to_fahrenheit(count)
+    print(f"{count} celsius = {fahrenheit} fahrenheit")
+    count += 10
+    
+//26
+def fizz_buzz(num):
+    if num % 3 == 0 and num % 5 == 0:
+        return "Fizz Buzz"
+    elif num % 3 == 0:
+        return "FIzz"
+    elif num % 5 == 0:
+        return "Buzz"
+    return num
+count = 1    
+while count <= 100:
+    print(fizz_buzz(count))
+    count += 1
