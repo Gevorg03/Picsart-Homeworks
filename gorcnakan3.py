@@ -31,6 +31,18 @@ def reverse_word(word):
 word = input("Input a word: ")
 print(f"The reverse of {word} is {reverse_word(word)}")
 
+//6
+def is_prime(n):
+    for i in range(2,n // 2):
+        if n % i == 0:
+            return False
+    return True 
+num = int(input("Input a number: "))
+number = num + 1
+while not is_prime(number):
+    number += 1
+print(f"The smallest prime number,that larger than {num} is {number}")
+
 //7
 def median(data):
     mid = len(data) // 2
