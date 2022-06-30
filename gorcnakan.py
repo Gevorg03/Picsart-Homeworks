@@ -197,8 +197,7 @@ def days_of_month(month):
         return "30"
     elif month == 'february':
         return "28 or 29"
-    else:
-        return "31"
+    return "31"
 _month = input("Input a month: ")
 print(f"The dyas of {_month} is {days_of_month(_month)}")
 
@@ -208,8 +207,7 @@ def letter_vocal_consonant(letter):
         return "vocal"
     elif letter == 'y':
         return "and vocal and consonant"
-    else:
-        return "consonant"
+    return "consonant"
 _letter = input("Input a letter: ")
 print(f"The {_letter} is {letter_vocal_consonant(_letter)}")
 
@@ -221,8 +219,7 @@ def season(month):
         return "summer"
     elif month in ('september', 'october', 'november'):
         return "autumn"
-    else:
-        return 'summer'
+    return 'summer'
 _month = input("Input a month: ")
 _day = int(input("Input a day: "))
 print(f"The {_month} {_day} is a day of {season(_month)}")
