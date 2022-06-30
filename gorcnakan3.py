@@ -1,6 +1,6 @@
 //1
 def reverse(number):
-    return int(str(num)[::-1])
+    return int(str(number)[::-1])
 num = int(input("Input a number: "))
 print(f"The reverse of {num} is {reverse(num)}")
 
